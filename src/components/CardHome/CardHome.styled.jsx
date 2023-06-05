@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 
-export const Wrapper = styled.ul`
+export const Wraper = styled.ul`
   display: flex;
   flex-wrap: wrap;
   gap: 48px;
@@ -9,7 +9,7 @@ export const Wrapper = styled.ul`
   padding: 0;
 `;
 
-export const Card = styled.li`
+export const Card = styled.div`
   position: relative;
   width: 380px;
   height: 460px;
@@ -21,7 +21,6 @@ export const Card = styled.li`
   );
   box-shadow: -2.5777px 6.87386px 20.6216px rgba(0, 0, 0, 0.23);
   border-radius: 20px;
-  list-style: none;
 `;
 
 export const Img = styled.img`
@@ -36,6 +35,22 @@ export const Img = styled.img`
     inset 0px 4.39163px 3.29372px #fbf8ff;
   border-radius: 50%;
   z-index: 10;
+`;
+
+export const Cirkle = styled.div`
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  margin-top: 130px;
+  margin-left: 158px;
+  background: linear-gradient(
+    114.99deg,
+    #471ca9 -0.99%,
+    #5736a3 54.28%,
+    #4b2a99 78.99%
+  );
+  border-radius: 50%;
+  z-index: 5;
 `;
 
 export const Line = styled.div`

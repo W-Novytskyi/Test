@@ -5,10 +5,19 @@ export const Link = styled(NavLink)`
   display: inline-block;
   text-decoration: none;
   padding: 12px;
+  font-family: 'Montserrat';
+  font-style: normal;
   font-weight: 700;
-  color: #2a363b;
+  font-size: 28px;
+  line-height: 24px;
+  color: #464040;
 
   &.active {
-    color: #2b6cb0;
+    color: #4f28a6;
   }
+`;
+export const Nav = styled.nav`
+  padding: 10px 30px;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #2b1a53;
 `;
