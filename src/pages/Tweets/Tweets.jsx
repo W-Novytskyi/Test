@@ -59,11 +59,11 @@ const Tweets = () => {
   return (
     <>
       <div>
-        <Button type="button">
-          <NavLink to="/">
+        <NavLink to="/">
+          <Button type="button">
             <span>Back</span>
-          </NavLink>
-        </Button>
+          </Button>
+        </NavLink>
       </div>
       {!itemList || itemList.length === 0 ? (
         <b>Request in progress...</b>

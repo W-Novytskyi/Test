@@ -24,11 +24,11 @@ export default function CardHome() {
       <Line></Line>
       <ItemTweets>777 TWEETS</ItemTweets>
       <ItemFollowers>100,500 FOLLOWERS</ItemFollowers>
-      <Button type="button">
-        <NavLink to="/tweets">
+      <NavLink to="/tweets">
+        <Button type="button">
           <span>GO!</span>
-        </NavLink>
-      </Button>
+        </Button>
+      </NavLink>
     </Card>
   );
 }
